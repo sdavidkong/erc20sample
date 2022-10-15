@@ -3,7 +3,6 @@ require("dotenv").config();
 require("@nomiclabs/hardhat-etherscan");
 require("hardhat-gas-reporter");
 require("hardhat-deploy");
-require("solidity-coverage");
 require("@nomiclabs/hardhat-ethers");
 
 const RPC_URL_GOERLI = process.env.RPC_URL_GOERLI;
